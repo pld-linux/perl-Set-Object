@@ -22,12 +22,12 @@ Summary(sv):	Set::Object Perlmodul
 Summary(uk):	Модуль для Perl Set::Object
 Summary(zh_CN):	Set::Object Perl дё©И
 Name:		perl-Set-Object
-Version:	1.04
+Version:	1.05
 Release:	1
 License:	Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	2f00f05422b54a66d89d662e38444abe
+# Source0-md5:	1f1390fbe2b26d625971738af5f73263
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	perl-devel >= 5.6
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -62,10 +62,10 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Changes
-%{perl_vendorarch}/Set
-%dir %{perl_vendorarch}/auto/Set
-%dir %{perl_vendorarch}/auto/Set/Object
-%{perl_vendorarch}/auto/Set/Object/autosplit.ix
-%{perl_vendorarch}/auto/Set/Object/Object.bs
-%attr(755,root,root) %{perl_vendorarch}/auto/Set/Object/Object.so
+%{perl_vendorarch}/%{pdir}
+%dir %{perl_vendorarch}/auto/%{pdir}
+%dir %{perl_vendorarch}/auto/%{pdir}/%{pnam}
+%{perl_vendorarch}/auto/%{pdir}/%{pnam}/autosplit.ix
+%{perl_vendorarch}/auto/%{pdir}/%{pnam}/%{pnam}.bs
+%attr(755,root,root) %{perl_vendorarch}/auto/%{pdir}/%{pnam}/%{pnam}.so
 %{_mandir}/man3/*
