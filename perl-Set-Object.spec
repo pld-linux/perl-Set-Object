@@ -46,7 +46,7 @@ obiektów bez duplikatów. Jest on podobny do IdentitySet Smalltalka.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make} OPTIMIZE="%{rpmcflags}"
 
 %{!?_without_tests:%{__make} test}
