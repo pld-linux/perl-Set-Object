@@ -3,7 +3,7 @@ Summary:	Set-Object perl module
 Summary(pl):	Modu³ perla Set-Object
 Name:		perl-Set-Object
 Version:	1.02
-Release:	2
+Release:	3
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
