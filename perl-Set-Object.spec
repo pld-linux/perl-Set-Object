@@ -1,3 +1,6 @@
+#
+# Conditional build:
+# _without_tests - do not perform "make test"
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	Set
 %define		pnam	Object
@@ -20,8 +23,8 @@ Summary(uk):	íÏÄÕÌØ ÄÌÑ Perl Set::Object
 Summary(zh_CN):	Set::Object Perl Ä£¿é
 Name:		perl-Set-Object
 Version:	1.02
-Release:	6
-License:	GPL
+Release:	7
+License:	Artistic
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 BuildRequires:	rpm-perlprov >= 3.0.3-16
@@ -29,55 +32,13 @@ BuildRequires:	perl >= 5.6
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Set::Object perl module.
-
-%description -l cs
-Modul Set::Object pro Perl.
-
-%description -l da
-Perlmodul Set::Object.
-
-%description -l de
-Set::Object Perl Modul.
-
-%description -l es
-Módulo de Perl Set::Object.
-
-%description -l fr
-Module Perl Set::Object.
-
-%description -l it
-Modulo di Perl Set::Object.
-
-%description -l ja
-Set::Object Perl ¥â¥¸¥å¡¼¥ë
-
-%description -l ko
-Set::Object ÆÞ ¸ðÁÙ.
-
-%description -l no
-Perlmodul Set::Object.
+The Set::Object Perl module implements a Set of objects, that is, a
+collection of objects without duplications. It is similar to a
+Smalltalk IdentitySet.
 
 %description -l pl
-Modu³ perla Set::Object.
-
-%description -l pt
-Módulo de Perl Set::Object.
-
-%description -l pt_BR
-Módulo Perl Set::Object.
-
-%description -l ru
-íÏÄÕÌØ ÄÌÑ Perl Set::Object.
-
-%description -l sv
-Set::Object Perlmodul.
-
-%description -l uk
-íÏÄÕÌØ ÄÌÑ Perl Set::Object.
-
-%description -l zh_CN
-Set::Object Perl Ä£¿é
+Modu³ Perla Set::Object implementuje zbiór obiektów, tzn. zestaw
+obiektów bez duplikatów. Jest on podobny do IdentitySet Smalltalka.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
@@ -85,6 +46,8 @@ Set::Object Perl Ä£¿é
 %build
 perl Makefile.PL
 %{__make} OPTIMIZE="%{rpmcflags}"
+
+%{!?_without_tests:%{__make} test}
 
 %install
 rm -rf $RPM_BUILD_ROOT
@@ -96,11 +59,11 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc Changes README
+%doc Changes
 %{perl_sitearch}/Set
-#%{perl_sitearch}/Set/Object.pm
 %dir %{perl_sitearch}/auto/Set
 %dir %{perl_sitearch}/auto/Set/Object
+%{perl_sitearch}/auto/Set/Object/autosplit.ix
 %{perl_sitearch}/auto/Set/Object/Object.bs
 %attr(755,root,root) %{perl_sitearch}/auto/Set/Object/Object.so
 %{_mandir}/man3/*
