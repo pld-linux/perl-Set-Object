@@ -13,7 +13,7 @@ Summary(fr):	Module Perl Set::Object
 Summary(it):	Modulo di Perl Set::Object
 Summary(ja):	Set::Object Perl ¥â¥¸¥å¡¼¥ë
 Summary(ko):	Set::Object ÆÞ ¸ðÁÙ
-Summary(no):	Perlmodul Set::Object
+Summary(nb):	Perlmodul Set::Object
 Summary(pl):	Modu³ Perla Set::Object
 Summary(pt):	Módulo de Perl Set::Object
 Summary(pt_BR):	Módulo Perl Set::Object
