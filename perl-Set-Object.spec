@@ -23,12 +23,12 @@ Summary(sv):	Set::Object Perlmodul
 Summary(uk):	Модуль для Perl Set::Object
 Summary(zh_CN):	Set::Object Perl дё©И
 Name:		perl-Set-Object
-Version:	1.07
+Version:	1.08
 Release:	1
 License:	Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	244160c147d4e97608de47eea546f2ba
+# Source0-md5:	b03625f1dcd7c88139a0784a79fd0db8
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
