@@ -2,7 +2,7 @@
 Summary:	Set-Object perl module
 Summary(pl):	Modu³ perla Set-Object
 Name:		perl-Set-Object
-Version:	1.01
+Version:	1.02
 Release:	1
 License:	GPL
 Group:		Development/Languages/Perl
@@ -36,7 +36,7 @@ strip --strip-unneeded $RPM_BUILD_ROOT/%{perl_sitearch}/auto/Set/Object/*.so
 (
   cd $RPM_BUILD_ROOT%{perl_sitearch}/auto/Set/Object
   sed -e "s#$RPM_BUILD_ROOT##" .packlist >.packlist.new
-  mv .packlist.new .packlist
+  mv -f .packlist.new .packlist
 )
 
 gzip -9nf $RPM_BUILD_ROOT%{_mandir}/man3/* \
