@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Set
-%define	pnam	Object
+%define		pdir	Set
+%define		pnam	Object
 Summary:	Set::Object Perl module
 Summary(cs):	Modul Set::Object pro Perl
 Summary(da):	Perlmodul Set::Object
