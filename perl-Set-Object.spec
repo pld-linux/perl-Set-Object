@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Set
 %define	pnam	Object
-Summary:	Set-Object perl module
-Summary(pl):	Modu³ perla Set-Object
+Summary:	Set::Object perl module
+Summary(pl):	Modu³ perla Set::Object
 Name:		perl-Set-Object
 Version:	1.02
 Release:	5
@@ -14,10 +14,10 @@ BuildRequires:	perl >= 5.6
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Set-Object perl module.
+Set::Object perl module.
 
 %description -l pl
-Modu³ perla Set-Object.
+Modu³ perla Set::Object.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
