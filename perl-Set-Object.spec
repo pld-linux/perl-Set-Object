@@ -1,12 +1,11 @@
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	Set
 %define	pnam	Object
-%include	/usr/lib/rpm/macros.perl
 Summary:	Set-Object perl module
 Summary(pl):	Modu³ perla Set-Object
 Name:		perl-Set-Object
 Version:	1.02
-Release:	4
-
+Release:	5
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -21,7 +20,7 @@ Set-Object perl module.
 Modu³ perla Set-Object.
 
 %prep
-%setup -q -n Set-Object-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 perl Makefile.PL
