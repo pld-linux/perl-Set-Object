@@ -2,9 +2,9 @@
 Summary:	Set-Object perl module
 Summary(pl):	Modu³ perla Set-Object
 Name:		perl-Set-Object
-Version:	0.003
-Release:	3
-Copyright:	GPL
+Version:	1.01
+Release:	1
+License:	GPL
 Group:		Development/Languages/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
 Source:		ftp://ftp.perl.org/pub/CPAN/modules/by-module/Set/Set-Object-%{version}.tar.gz
