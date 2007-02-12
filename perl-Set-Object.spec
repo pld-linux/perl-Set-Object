@@ -6,22 +6,22 @@
 %define		pdir	Set
 %define		pnam	Object
 Summary:	Set::Object Perl module
-Summary(cs):	Modul Set::Object pro Perl
-Summary(da):	Perlmodul Set::Object
-Summary(de):	Set::Object Perl Modul
-Summary(es):	Módulo de Perl Set::Object
-Summary(fr):	Module Perl Set::Object
-Summary(it):	Modulo di Perl Set::Object
-Summary(ja):	Set::Object Perl ¥â¥¸¥å¡¼¥ë
-Summary(ko):	Set::Object ÆŞ ¸ğÁÙ
-Summary(nb):	Perlmodul Set::Object
-Summary(pl):	Modu³ Perla Set::Object
-Summary(pt):	Módulo de Perl Set::Object
-Summary(pt_BR):	Módulo Perl Set::Object
-Summary(ru):	íÏÄÕÌØ ÄÌÑ Perl Set::Object
-Summary(sv):	Set::Object Perlmodul
-Summary(uk):	íÏÄÕÌØ ÄÌÑ Perl Set::Object
-Summary(zh_CN):	Set::Object Perl Ä£¿é
+Summary(cs.UTF-8):   Modul Set::Object pro Perl
+Summary(da.UTF-8):   Perlmodul Set::Object
+Summary(de.UTF-8):   Set::Object Perl Modul
+Summary(es.UTF-8):   MÃ³dulo de Perl Set::Object
+Summary(fr.UTF-8):   Module Perl Set::Object
+Summary(it.UTF-8):   Modulo di Perl Set::Object
+Summary(ja.UTF-8):   Set::Object Perl ãƒ¢ã‚¸ãƒ¥ãƒ¼ãƒ«
+Summary(ko.UTF-8):   Set::Object í„ ëª¨ì¤„
+Summary(nb.UTF-8):   Perlmodul Set::Object
+Summary(pl.UTF-8):   ModuÅ‚ Perla Set::Object
+Summary(pt.UTF-8):   MÃ³dulo de Perl Set::Object
+Summary(pt_BR.UTF-8):   MÃ³dulo Perl Set::Object
+Summary(ru.UTF-8):   ĞœĞ¾Ğ´ÑƒĞ»ÑŒ Ğ´Ğ»Ñ Perl Set::Object
+Summary(sv.UTF-8):   Set::Object Perlmodul
+Summary(uk.UTF-8):   ĞœĞ¾Ğ´ÑƒĞ»ÑŒ Ğ´Ğ»Ñ Perl Set::Object
+Summary(zh_CN.UTF-8):   Set::Object Perl æ¨¡å—
 Name:		perl-Set-Object
 Version:	1.08
 Release:	1
@@ -38,9 +38,9 @@ The Set::Object Perl module implements a Set of objects, that is, a
 collection of objects without duplications. It is similar to a
 Smalltalk IdentitySet.
 
-%description -l pl
-Modu³ Perla Set::Object implementuje zbiór obiektów, tzn. zestaw
-obiektów bez duplikatów. Jest on podobny do IdentitySet Smalltalka.
+%description -l pl.UTF-8
+ModuÅ‚ Perla Set::Object implementuje zbiÃ³r obiektÃ³w, tzn. zestaw
+obiektÃ³w bez duplikatÃ³w. Jest on podobny do IdentitySet Smalltalka.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
