@@ -6,22 +6,22 @@
 %define		pdir	Set
 %define		pnam	Object
 Summary:	Set::Object Perl module
-Summary(cs.UTF-8):   Modul Set::Object pro Perl
-Summary(da.UTF-8):   Perlmodul Set::Object
-Summary(de.UTF-8):   Set::Object Perl Modul
-Summary(es.UTF-8):   Módulo de Perl Set::Object
-Summary(fr.UTF-8):   Module Perl Set::Object
-Summary(it.UTF-8):   Modulo di Perl Set::Object
-Summary(ja.UTF-8):   Set::Object Perl モジュール
-Summary(ko.UTF-8):   Set::Object 펄 모줄
-Summary(nb.UTF-8):   Perlmodul Set::Object
-Summary(pl.UTF-8):   Moduł Perla Set::Object
-Summary(pt.UTF-8):   Módulo de Perl Set::Object
-Summary(pt_BR.UTF-8):   Módulo Perl Set::Object
-Summary(ru.UTF-8):   Модуль для Perl Set::Object
-Summary(sv.UTF-8):   Set::Object Perlmodul
-Summary(uk.UTF-8):   Модуль для Perl Set::Object
-Summary(zh_CN.UTF-8):   Set::Object Perl 模块
+Summary(cs.UTF-8):	Modul Set::Object pro Perl
+Summary(da.UTF-8):	Perlmodul Set::Object
+Summary(de.UTF-8):	Set::Object Perl Modul
+Summary(es.UTF-8):	Módulo de Perl Set::Object
+Summary(fr.UTF-8):	Module Perl Set::Object
+Summary(it.UTF-8):	Modulo di Perl Set::Object
+Summary(ja.UTF-8):	Set::Object Perl モジュール
+Summary(ko.UTF-8):	Set::Object 펄 모줄
+Summary(nb.UTF-8):	Perlmodul Set::Object
+Summary(pl.UTF-8):	Moduł Perla Set::Object
+Summary(pt.UTF-8):	Módulo de Perl Set::Object
+Summary(pt_BR.UTF-8):	Módulo Perl Set::Object
+Summary(ru.UTF-8):	Модуль для Perl Set::Object
+Summary(sv.UTF-8):	Set::Object Perlmodul
+Summary(uk.UTF-8):	Модуль для Perl Set::Object
+Summary(zh_CN.UTF-8):	Set::Object Perl 模块
 Name:		perl-Set-Object
 Version:	1.08
 Release:	1
