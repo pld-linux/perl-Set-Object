@@ -23,12 +23,12 @@ Summary(sv.UTF-8):	Set::Object Perlmodul
 Summary(uk.UTF-8):	Модуль для Perl Set::Object
 Summary(zh_CN.UTF-8):	Set::Object Perl 模块
 Name:		perl-Set-Object
-Version:	1.08
+Version:	1.21
 Release:	1
 License:	Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	b03625f1dcd7c88139a0784a79fd0db8
+# Source0-md5:	db0c657333f65000e1d85ba59dd2320d
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -64,7 +64,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc Changes
+%doc Changes*
 %{perl_vendorarch}/%{pdir}
 %dir %{perl_vendorarch}/auto/%{pdir}
 %dir %{perl_vendorarch}/auto/%{pdir}/%{pnam}
