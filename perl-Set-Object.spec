@@ -56,6 +56,5 @@ rm -rf $RPM_BUILD_ROOT
 %dir %{perl_vendorarch}/auto/Set
 %dir %{perl_vendorarch}/auto/Set/Object
 %{perl_vendorarch}/auto/Set/Object/autosplit.ix
-%{perl_vendorarch}/auto/Set/Object/Object.bs
 %attr(755,root,root) %{perl_vendorarch}/auto/Set/Object/Object.so
 %{_mandir}/man3/*
