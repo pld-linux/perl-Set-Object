@@ -8,7 +8,7 @@ Summary:	Set::Object - set of objects and strings
 Summary(pl.UTF-8):	Set::Object - zbiór obiektów i łańcuchów
 Name:		perl-Set-Object
 Version:	1.39
-Release:	4
+Release:	5
 License:	Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Set/%{pdir}-%{pnam}-%{version}.tar.gz
